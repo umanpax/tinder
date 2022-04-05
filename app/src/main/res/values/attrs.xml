@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="PhotoPagerComponent">
+        <attr name="startTextPhotoPager" format="integer" />
+    </declare-styleable>
+</resources>

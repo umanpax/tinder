@@ -1,0 +1,215 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+        <item name="android:textCursorDrawable">@color/colorPrimary</item>
+        <item name="actionBarSize">0dp</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:listDivider">@color/colorWhite</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeBluePrimary" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="actionMenuTextColor">@color/colorPrimary</item>
+        <item name="actionBarSize">0dp</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:listDivider">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Active thumb color & Active track color(30% transparency) -->
+        <item name="colorControlActivated">@color/colorWhite</item>
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorWhite</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/colorFontAppIcon</item>
+    </style>
+
+
+    <style name="SwitchTextAppearance" parent="TextAppearance.AppCompat.Widget.Switch">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppThemeLight" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="actionBarSize">40dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="colorAccent">@color/colorTabView</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+    <style name="menu_drawer_style">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textSize">22sp</item>
+        <item name="dividerPadding">10sp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="fontFamily">@font/nunitoregular</item>
+        <item name="android:listDivider">@color/colorWhite</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorGreenUman</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorBluedGrey</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorBluedGrey</item>
+    </style>
+
+
+    <style name="mySpinnerItemStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="fontFamily">@fonts/opensanslight</item>
+        <item name="divider">@color/colorLightGray</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:textColor">@color/colorBluedGrey</item>
+        <item name="android:textColorHint">@color/colorBluedGrey</item>
+    </style>
+
+
+    <style name="timePickerStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="title">Mon titre</item>
+        <item name="divider">@color/colorBlueCardLogo</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:windowTitleBackgroundStyle">@color/colorBlack</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="buttonStyle">@style/Base.Animation.AppCompat.Dialog</item>
+    </style>
+
+
+    <style name="dialogTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="title">Mon titre</item>
+        <item name="android:windowTitleBackgroundStyle">@color/colorBlack</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="buttonStyle">@style/Base.Animation.AppCompat.Dialog</item>
+    </style>
+
+
+    <style name="mCircularProgress">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">2dp</item>
+        <item name="cpd_strokeColor">@color/colorPrimary</item>
+        <item name="cpd_strokeSecondaryColor">@color/colorPrimary</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorRedError</item>
+    </style>
+
+    <style name="mCircularProgressEtiquetteChallengeCard">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorBlueCardLogo</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+
+    <style name="mCircularProgressWhite">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/colorWhite</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+    <style name="mCircularProgressTransparant">
+        <item name="cpd_padding">0dp</item>
+        <item name="cpd_initialAngle">0</item>
+        <item name="cpd_maxSweepAngle">270</item>
+        <item name="cpd_minSweepAngle">1</item>
+        <item name="cpd_strokeSize">4dp</item>
+        <item name="cpd_strokeColor">@color/transparent</item>
+        <item name="cpd_strokeSecondaryColor">@android:color/transparent</item>
+        <item name="cpd_reverse">false</item>
+        <item name="cpd_rotateDuration">700</item>
+        <item name="cpd_transformDuration">600</item>
+        <item name="cpd_keepDuration">200</item>
+        <item name="cpd_transformInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="pv_progressMode">buffer</item>
+        <item name="cpd_inAnimDuration">0</item>
+        <item name="cpd_outAnimDuration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+    <style name="TextAppearence.App.active" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorBlueCardLogo</item>
+    </style>
+
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>
