@@ -7,7 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:backgroundTint="@color/colorWhite"
     android:background="@drawable/layout_rounded_corners"
     android:orientation="horizontal">
 
@@ -26,10 +25,10 @@
 
     <LinearLayout
         android:id="@+id/linear_infos_profile_1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginHorizontal="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -41,7 +40,7 @@
             android:fontFamily="@font/nunitoextrabold"
             android:text="info1"
             android:textColor="@color/colorWhite"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_info2"
@@ -50,7 +49,7 @@
             android:fontFamily="@font/nunitoextrabold"
             android:text="info2"
             android:textColor="@color/colorWhite"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:layout_marginStart="20dp"/>
 
 
@@ -61,7 +60,7 @@
             android:fontFamily="@font/nunitoextrabold"
             android:text="info3"
             android:textColor="@color/colorWhite"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:layout_marginStart="20dp"/>
 
 
@@ -70,11 +69,11 @@
 
     <LinearLayout
         android:id="@+id/linear_infos_profile_2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="20dp"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@+id/linear_infos_profile_1"
         app:layout_constraintStart_toStartOf="parent">
@@ -84,9 +83,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/nunitoextrabold"
-            android:text="info1"
+            android:text="info1 jklfdjsklfjdslfjdslkfjdsjfdlskjfdksjfldsjfdklsjfldsjflkdjsfdsjfldsjfkldsjfdksjdslsj"
             android:textColor="@color/colorWhite"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_info5"
@@ -95,7 +94,7 @@
             android:fontFamily="@font/nunitoextrabold"
             android:text="info2"
             android:textColor="@color/colorWhite"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:layout_marginStart="20dp"/>
 
 
@@ -106,7 +105,7 @@
             android:fontFamily="@font/nunitoextrabold"
             android:text="info3"
             android:textColor="@color/colorWhite"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:layout_marginStart="20dp"/>
 
     </LinearLayout>

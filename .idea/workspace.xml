@@ -13,17 +13,60 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c8a947f-3364-4817-9a62-0469688c868f" name="Default Changelist" comment="" />
+    <list default="true" id="7c8a947f-3364-4817-9a62-0469688c868f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Tinder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Tinder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Tinder.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Tinder.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_base.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_base.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_swipe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_swipe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_cardview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_cardview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_photo_viewer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_photo_viewer.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/pierre-alexandrevezinet/.android/avd/Nexus_5X_API_27.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-RF8N738MJST-t5ptJ5._adb-tls-connect._tcp.]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tinder" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tinder" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tinder" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,9 +98,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-view/Users/pierre-alexandrevezinet/Documents/AndroidProjects/Tinder/app/src/main/java/com/tinder/components/photopager/PhotoPagerComponent.kt_SELECTED" value="PhotoPagerComponent" />
     <property name="android-custom-view/Users/pierre-alexandrevezinet/Documents/AndroidProjects/Tinder2/app/src/main/java/com/tinder/components/photopager/PhotoPagerComponent.kt_SELECTED" value="PhotoPagerComponent" />
     <property name="android-custom-view/Users/pierre-alexandrevezinet/Documents/AndroidProjects/Tinder2/app/src/main/java/com/tinder/utils/CustomPhotoSwipeViewPager.kt_SELECTED" value="CustomPhotoSwipeViewPager" />
+    <property name="android-custom-view/Users/pierre-alexandrevezinet/Documents/AndroidProjects/tinder/app/src/main/java/com/tinder/components/photopager/PhotoPagerComponent.kt_SELECTED" value="PhotoPagerComponent" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />

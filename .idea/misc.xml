@@ -7,18 +7,19 @@
         <entry key="app/src/main/res/drawable/ic_left.xml" value="0.1475" />
         <entry key="app/src/main/res/drawable/ic_right.xml" value="0.1475" />
         <entry key="app/src/main/res/layout/action_bar.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_base.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.2880886426592798" />
         <entry key="app/src/main/res/layout/activity_splashscreen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/component_photo_pager.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_add.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_swipe.xml" value="0.165" />
         <entry key="app/src/main/res/layout/item_cardview.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/item_photo_viewer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_photo_viewer.xml" value="0.25" />
         <entry key="app/src/main/res/layout/tab_view_swipe.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
